@@ -6,10 +6,7 @@ public abstract class Fruit {
 	private double weight;
 	private String name;
 	private boolean fresh=true;
-	private static a;
-	{
-		a=10;
-	}
+	
 	
 	public boolean isFresh() {
 		return fresh;
