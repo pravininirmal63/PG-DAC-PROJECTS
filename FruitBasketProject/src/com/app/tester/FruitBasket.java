@@ -74,6 +74,7 @@ public class FruitBasket {
 					if(e!=null)
 					{
 						System.out.println(e);
+						System.out.println("taste is :"+e.taste());
 					}
 				}
 				break;
