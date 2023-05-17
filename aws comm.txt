@@ -1,0 +1,41 @@
+1. sudo apt install
+2. sudo apt update 
+3. sudo apt install docker.io        Y
+
+
+web app
+sudo apt install git (if git is not installed check [using git --version])
+
+4. git clone uslofSDM
+
+5. cd SDM
+6. cd WebApp
+7. sudo docker build -t pravin .
+8. sudo docker run -d -p 2512:7667 pravin
+
+9. ip:2512
+
+
+
+
+nginx
+
+4. sudo docker images
+5. sudo docker pull nginx
+6. sudo docker run --name pravin -d -p 8080:80 nginx:latest
+7. ip:8080
+
+
+
+how to kill:
+
+1. sudo docker ps
+2. sudo docker kill  containerID
+
+
+hello-world/mysql
+
+1.sudo docker pull hello-world
+
+
+
